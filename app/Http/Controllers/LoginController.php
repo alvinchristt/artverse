@@ -30,7 +30,7 @@ class LoginController extends Controller
             'katasandi' => 'Nama atau kata sandi salah',
         ]);
     }
-
+    a
     public function Logout(){
         if(Auth::check()){
            Auth::logout();
